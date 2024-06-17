@@ -43,7 +43,7 @@ int main() {
 
 	auto st = std::chrono::system_clock::now();
 	int tick = 500;
-	for(unsigned int round = 2; round <= 4; round++) {
+	for(unsigned int round = 1; round <= 4; round++) {
 		Game game(round, B[round], P[round], M[round], G[round]);
 
 		char ch = 'd'; // right direction 
